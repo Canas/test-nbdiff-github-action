@@ -1,7 +1,7 @@
 This repo is to try out a Github action that comments PRs with Jupyter Notebook diffs (vía [nbdime](https://github.com/jupyter/nbdime)) if available. Sample is available in the only open PR.
 
 nbdiff.yaml
-```
+```yaml
 name: Generate notebook diff
 
 on: ["pull_request"]
